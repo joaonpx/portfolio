@@ -1,3 +1,5 @@
+/* ========================= GENERAL ================================== */
+
 * {
   margin: 0;
   padding: 0;
@@ -35,6 +37,8 @@ body {
   margin-inline: 10rem;
 }
 
+/* ========================= NAVIGATION ================================== */
+
 nav .wrapper {
   display: flex;
   justify-content: space-between;
@@ -66,6 +70,8 @@ nav .wrapper {
 
   opacity: 1;
 }
+
+/* ========================= HOME SECTION ================================== */
 
 #home {
   height: 90vh;
@@ -148,10 +154,18 @@ nav .wrapper {
   opacity: 1;
 }
 
+/* ========================= ANIMATIONS ================================== */
+
 .bounce-arrow {
   -moz-animation: bounce 2000ms infinite;
   -webkit-animation: bounce 2000ms infinite;
   animation: bounce 2000ms infinite;
+}
+
+.slide-in-blurred-top {
+  -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1)
+    both;
+  animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
 }
 
 @keyframes bounce {
@@ -168,12 +182,6 @@ nav .wrapper {
   60% {
     transform: translateY(-15px);
   }
-}
-
-.slide-in-blurred-top {
-  -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1)
-    both;
-  animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
 }
 
 /* ----------------------------------------------
