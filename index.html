@@ -14,7 +14,12 @@
     <!-- fonts -->
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
 
@@ -22,12 +27,72 @@
 
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
-    <div class="brand-logo slide-in-blurred-top">
-      <img src="./assets/npx-logo-com-blur.png.svg" alt="Branding Logo" />
-    </div>
-    <div class="container">
-      <p class="flicker-in-1">Coming soon ...</p>
-    </div>
+  <body class="fade-in">
+    <nav id="navigationbar">
+      <div class="wrapper">
+        <div class="menu">
+          <div class="nav-left">
+            <ul>
+              <li>
+                <a href="#home">Ínicio</a>
+              </li>
+              <li>
+                <a href="#about">Sobre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a href="#home" class="brand-logo slide-in-blurred-top">
+          <img src="./assets/npx-logo-com-blur.png.svg" alt="Branding Logo" />
+        </a>
+        <div class="menu">
+          <div class="nav-right">
+            <ul>
+              <li>
+                <a href="#projects">Projetos</a>
+              </li>
+              <li>
+                <a href="#services">Serviços</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home">
+      <header>
+        <span>Olá 👋, eu sou</span>
+        <h1>João Carlos</h1>
+        <p>Front-end Developer_</p>
+      </header>
+      <footer>
+        <a href="#" class="btn-contact">Contato</a>
+        <img
+          class="bounce-arrow"
+          src="./assets/arrow-down.svg"
+          alt="Seta apontada para baixo"
+        />
+        <div class="social-icons">
+          <ul>
+            <li>
+              <a href="https://instagram.com/npxdev">
+                <img src="./assets/instagram-icon.svg" alt="Icone Instagram" />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/npx08">
+                <img src="./assets/github-icon.svg" alt="Icone Github" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/npx">
+                <img src="./assets/linkedin-icon.svg" alt="Icone Linkedin" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </section>
   </body>
 </html>
