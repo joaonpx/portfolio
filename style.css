@@ -33,8 +33,6 @@ body {
   color: #e0dcda;
 
   height: 100vh;
-
-  margin-inline: 10rem;
 }
 
 /* ========================= NAVIGATION ================================== */
@@ -78,32 +76,40 @@ nav .wrapper {
 /* ========================= HOME SECTION ================================== */
 
 #home {
-  height: 90vh;
-}
-
-#home header {
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 
-  height: 80vh;
+  margin-inline: 3.5rem;
+}
+
+#home header {
+  text-align: center;
+
+  height: 50vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+
+  margin-bottom: 6.5rem;
 }
 
 #home header span {
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: 700;
 }
 
 #home header h1 {
-  font-size: 6.2rem;
+  font-size: 4.8rem;
 
   margin: 0.5rem 0;
 }
 
 #home header p {
-  font-size: 2.8rem;
+  font-size: 2rem;
   font-weight: 500;
 
   background: var(--main-gradient);
@@ -114,9 +120,11 @@ nav .wrapper {
 #home footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5.4rem;
 
-  height: 10vh;
+  padding: 5.2rem;
 }
 
 #home footer .btn-contact {
@@ -132,7 +140,7 @@ nav .wrapper {
   text-decoration: none;
   text-transform: uppercase;
 
-  padding: 1rem 2.5rem;
+  padding: 1.5rem 5rem;
 
   opacity: 0.7;
   transition: all 200ms;
@@ -140,6 +148,10 @@ nav .wrapper {
 
 #home footer .btn-contact:hover {
   opacity: 1;
+}
+
+#home footer .social-icons {
+  margin-bottom: 2.5rem;
 }
 
 #home footer .social-icons ul {
@@ -158,12 +170,42 @@ nav .wrapper {
   opacity: 1;
 }
 
-@media (min-width: 590px) {
+/* ========================= ABOUT SECTION ================================== */
+#about {
+  height: 100vh;
+}
+
+#about .about-img {
+  width: 100%;
+}
+
+#about .about-txt-container {
+  padding: 4.4rem 2.4rem;
+
+  height: 52.5%;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+#about .about-txt-container .about-txt {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+/* ========================= PROJECTS SECTION ================================== */
+#projects {
+  height: 100vh;
+}
+
+/* @media (min-width: 590px) {
   .nav-left,
   .nav-right {
     display: initial;
   }
-}
+} */
 
 /* ========================= ANIMATIONS ================================== */
 
