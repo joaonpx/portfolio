@@ -180,9 +180,9 @@ nav .wrapper {
 }
 
 #about .about-txt-container {
-  padding: 4.4rem 2.4rem;
+  padding-inline: 2.4rem;
 
-  height: 52.5%;
+  height: 54.4%;
 
   display: flex;
   justify-content: center;
