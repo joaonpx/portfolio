@@ -171,18 +171,13 @@ nav .wrapper {
 }
 
 /* ========================= ABOUT SECTION ================================== */
-#about {
-  height: 100vh;
-}
 
 #about .about-img {
   width: 100%;
 }
 
 #about .about-txt-container {
-  padding-inline: 2.4rem;
-
-  height: 54.4%;
+  padding: 4.4rem 2.4rem;
 
   display: flex;
   justify-content: center;
@@ -191,7 +186,7 @@ nav .wrapper {
 }
 
 #about .about-txt-container .about-txt {
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 2.4rem;
 }
 
