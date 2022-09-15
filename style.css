@@ -29,7 +29,7 @@ body {
 
   background: url('./assets/bg-pattern-npx.svg'), #090807;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   color: #e0dcda;
 
   height: 100vh;
@@ -87,7 +87,7 @@ nav .wrapper {
 #home header {
   text-align: center;
 
-  height: 50vh;
+  height: 25vh;
 
   display: flex;
   align-items: center;
