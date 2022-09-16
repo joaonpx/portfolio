@@ -44,7 +44,7 @@ nav .wrapper {
   padding-block: 1.7rem;
 }
 
-.menu ul {
+/* .menu ul {
   list-style: none;
 
   display: flex;
@@ -66,7 +66,7 @@ nav .wrapper {
   font-weight: 700;
 
   opacity: 1;
-}
+} */
 
 .nav-left,
 .nav-right {
@@ -76,21 +76,11 @@ nav .wrapper {
 /* ========================= HOME SECTION ================================== */
 
 #home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
   margin-inline: 3.5rem;
 }
 
 #home header {
   text-align: center;
-
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-direction: column;
 
   margin-top: calc(6.5rem + 2.6rem);
   margin-bottom: calc(6.5rem - 1.3rem);
