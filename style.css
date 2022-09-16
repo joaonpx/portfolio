@@ -35,6 +35,22 @@ body {
   height: 100vh;
 }
 
+.v-line {
+  background: linear-gradient(hsla(30, 13%, 3%, 1), hsla(30, 13%, 3%, 1))
+      padding-box,
+    linear-gradient(
+        90deg,
+        #059ed2 0%,
+        #4c7b85 34.9%,
+        #c8404a 66.15%,
+        #fa532a 100%
+      )
+      border-box;
+  border: 1px solid transparent;
+
+  opacity: 0.5;
+}
+
 /* ========================= NAVIGATION ================================== */
 nav .wrapper {
   display: flex;
