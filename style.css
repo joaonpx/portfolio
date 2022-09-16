@@ -52,12 +52,13 @@ nav .wrapper {
 }
 
 .menu ul li a {
-  /* font-family: 'Inconsolata', monospace;
-  font-size: 1.6rem; */
   text-decoration: none;
-  /* font-weight: 400; */
 
-  /* color: var(--primary);
+  /* font-family: 'Inconsolata', monospace;
+  font-size: 1.6rem;
+  font-weight: 400;
+
+  color: var(--primary);
   opacity: 0.7;
   transition: all 200ms; */
 }
@@ -68,10 +69,10 @@ nav .wrapper {
   opacity: 1;
 } */
 
-.nav-left,
+/* .nav-left,
 .nav-right {
   display: none;
-}
+} */
 
 /* ========================= HOME SECTION ================================== */
 
@@ -180,7 +181,8 @@ nav .wrapper {
   justify-content: center;
   flex-direction: column;
 
-  margin: 4.4rem 3.5rem;
+  padding-block: 4.4rem;
+  margin-inline: 3.5rem;
 }
 
 #projects h1 {
@@ -243,7 +245,7 @@ nav .wrapper {
   flex-direction: column;
   gap: 15rem;
 
-  margin: 4.4rem 3.5rem;
+  margin-inline: 3.5rem;
 }
 
 #services h1 {
@@ -259,9 +261,35 @@ nav .wrapper {
 }
 
 /* ========================= FOOTER ================================== */
-footer {
+.branding-footer {
   background: var(--main-gradient);
-  height: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  padding-block: 3.7rem;
+}
+
+.branding-footer .branding-logo {
+  width: 7.4rem;
+}
+
+.branding-footer p {
+  font-size: 1.4rem;
+}
+
+.branding-footer .social-icons {
+  margin-top: calc(2.3rem - 1.5rem);
+}
+
+.branding-footer .social-icons ul {
+  list-style: none;
+
+  display: flex;
+  gap: 3.2rem;
 }
 
 /* ========================= RESPONSIVE ================================== */
