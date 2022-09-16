@@ -44,25 +44,25 @@ nav .wrapper {
   padding-block: 1.7rem;
 }
 
-/* .menu ul {
+.menu ul {
   list-style: none;
 
-  display: flex;
-  gap: 3.1rem;
+  /* display: flex;
+  gap: 3.1rem; */
 }
 
 .menu ul li a {
-  font-family: 'Inconsolata', monospace;
-  font-size: 1.6rem;
+  /* font-family: 'Inconsolata', monospace;
+  font-size: 1.6rem; */
   text-decoration: none;
-  font-weight: 400;
+  /* font-weight: 400; */
 
-  color: var(--primary);
+  /* color: var(--primary);
   opacity: 0.7;
-  transition: all 200ms;
+  transition: all 200ms; */
 }
 
-.menu ul li a:hover {
+/* .menu ul li a:hover {
   font-weight: 700;
 
   opacity: 1;
@@ -156,7 +156,6 @@ nav .wrapper {
 }
 
 /* ========================= ABOUT SECTION ================================== */
-
 #about .about-img {
   width: 100%;
 }
@@ -165,7 +164,6 @@ nav .wrapper {
   padding: 4.4rem 2.4rem;
 
   display: flex;
-  justify-content: center;
   flex-direction: column;
   gap: 2.4rem;
 }
@@ -177,9 +175,96 @@ nav .wrapper {
 
 /* ========================= PROJECTS SECTION ================================== */
 #projects {
-  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 4.4rem 3.5rem;
 }
 
+#projects h1 {
+  font-size: 2.8rem;
+  text-align: center;
+
+  background: var(--main-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-bottom: 4.4rem;
+}
+
+#projects .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+#projects .cards .card a img {
+  border-radius: 1rem;
+
+  background: var(--main-gradient);
+  padding: 0.2rem;
+  border-radius: 1rem;
+
+  transition: all 200ms;
+}
+
+/* #projects .cards .card span {
+  position: absolute;
+  left: 7.5rem;
+  margin-top: 32.5rem;
+
+  background: var(--main-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.8rem;
+  font-weight: 700;
+} */
+
+/* ========================= SERVICES SECTION ================================== */
+#services {
+  height: 100%;
+
+  background: url('./assets/bg-services-mobile.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+#services .services-container {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15rem;
+
+  margin: 4.4rem 3.5rem;
+}
+
+#services h1 {
+  font-size: 3.6rem;
+
+  margin-bottom: 3rem;
+}
+
+#services p {
+  font-size: 2rem;
+  font-family: 'Inconsolata', monospace;
+  line-height: 3.2rem;
+}
+
+/* ========================= FOOTER ================================== */
+footer {
+  background: var(--main-gradient);
+  height: 50%;
+}
+
+/* ========================= RESPONSIVE ================================== */
 /* @media (min-width: 590px) {
   .nav-left,
   .nav-right {
