@@ -92,13 +92,13 @@ nav .wrapper {
 
 #home {
   margin-inline: 3.5rem;
+  margin-top: calc(8.5rem + 2.6rem);
 }
 
 #home header {
   text-align: center;
 
-  margin-top: calc(6.5rem + 2.6rem);
-  margin-bottom: calc(6.5rem - 1.3rem);
+  margin-bottom: calc(8.5rem - 1.3rem);
 }
 
 #home header span {
@@ -128,7 +128,7 @@ nav .wrapper {
   flex-direction: column;
   gap: 5.4rem;
 
-  padding: 5.2rem;
+  padding: 5.2rem 0 1.7rem 0;
 }
 
 #home footer .btn-contact {
