@@ -372,7 +372,8 @@ nav .wrapper {
   #about {
     display: flex;
 
-    height: 73.5%;
+    /* height: 73.5%; */
+    height: 100vh;
   }
 
   #about .about-img-container {
@@ -381,6 +382,15 @@ nav .wrapper {
 
   #about .about-txt-container {
     width: 50%;
+
+    padding: 12.4rem 15rem;
+
+    justify-content: center;
+  }
+
+  #about .about-txt-container .about-txt {
+    font-size: 2.2rem;
+    line-height: 3.2rem;
   }
 
   #about .about-img {
