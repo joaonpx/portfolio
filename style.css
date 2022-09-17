@@ -55,33 +55,16 @@ nav .wrapper {
   justify-content: space-between;
   align-items: center;
 
-  padding-block: 1.7rem;
+  padding: 1.7rem 10rem;
 }
 
 .menu ul {
   list-style: none;
-
-  /* display: flex;
-  gap: 3.1rem; */
 }
 
 .menu ul li a {
   text-decoration: none;
-
-  /* font-family: 'Inconsolata', monospace;
-  font-size: 1.6rem;
-  font-weight: 400;
-
-  color: var(--primary);
-  opacity: 0.7;
-  transition: all 200ms; */
 }
-
-/* .menu ul li a:hover {
-  font-weight: 700;
-
-  opacity: 1;
-} */
 
 .nav-left,
 .nav-right {
@@ -89,7 +72,6 @@ nav .wrapper {
 }
 
 /* ========================= HOME SECTION ================================== */
-
 #home {
   margin-inline: 3.5rem;
   margin-top: calc(6.5rem + 3.5rem);
@@ -126,7 +108,7 @@ nav .wrapper {
   flex-direction: column;
   gap: 5.4rem;
 
-  padding: calc(5.2rem + 5.2rem) 0 4rem 0;
+  padding: calc(5.2rem + 5.2rem) 0 5.6rem 0;
 }
 
 #home footer .btn-contact {
@@ -166,6 +148,15 @@ nav .wrapper {
 
 #home footer .social-icons ul li a:hover {
   opacity: 1;
+}
+
+#home .arrow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 4rem;
 }
 
 /* ========================= ABOUT SECTION ================================== */
@@ -307,12 +298,109 @@ nav .wrapper {
 }
 
 /* ========================= RESPONSIVE ================================== */
-/* @media (min-width: 590px) {
+@media (min-width: 1024px) {
+  body {
+    background-position: center;
+  }
+
+  .v-line {
+    display: none;
+  }
+
+  /* ========================= NAVIGATION ================================== */
+  .menu ul {
+    display: flex;
+    gap: 3.1rem;
+  }
+
+  .menu ul li a {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    color: var(--primary);
+    opacity: 0.7;
+    transition: all 200ms;
+  }
+
+  .menu ul li a:hover {
+    font-weight: 700;
+
+    opacity: 1;
+  }
+
   .nav-left,
   .nav-right {
     display: initial;
   }
-} */
+
+  /* ========================= HOME SECTION ================================== */
+  #home {
+    margin: 0;
+  }
+
+  #home header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 80vh;
+  }
+
+  #home header span {
+    font-size: 3rem;
+  }
+
+  #home header h1 {
+    font-size: 6.2rem;
+  }
+
+  #home header p {
+    font-size: 2.8rem;
+  }
+
+  #home footer {
+    justify-content: space-between;
+    flex-direction: row;
+
+    height: 12.8vh;
+    padding: 0 10rem 0 10rem;
+  }
+
+  #home footer .btn-contact {
+    padding: 1.25rem 3.05rem;
+  }
+
+  #home .arrow {
+    width: auto;
+    margin-inline: 47.8%;
+
+    position: absolute;
+    top: 90.9%;
+
+    padding: 0;
+  }
+
+  /* ========================= ABOUT SECTION ================================== */
+  #about {
+    display: flex;
+
+    height: 73.5%;
+  }
+
+  #about .about-img-container {
+    width: 50%;
+  }
+
+  #about .about-txt-container {
+    width: 50%;
+  }
+
+  #about .about-img {
+    width: 100%;
+  }
+}
 
 /* ========================= ANIMATIONS ================================== */
 
