@@ -51,13 +51,20 @@ body {
 
 /* ========================= NAVIGATION ================================== */
 nav .wrapper {
+  width: 100%;
+
+  position: fixed;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   padding: 1.7rem 10rem;
-}
 
+  background: rgba(9, 8, 7, 0.25);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+}
 .menu ul {
   list-style: none;
 }
