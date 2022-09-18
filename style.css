@@ -351,7 +351,7 @@ nav .wrapper {
     flex-direction: row;
 
     height: 12.8vh;
-    padding: 0 10rem 0 10rem;
+    padding: 0 10rem;
   }
 
   #home footer .btn-contact {
@@ -373,7 +373,7 @@ nav .wrapper {
     display: flex;
 
     /* height: 73.5%; */
-    height: 100vh;
+    height: auto;
   }
 
   #about .about-img-container {
@@ -395,6 +395,36 @@ nav .wrapper {
 
   #about .about-img {
     width: 100%;
+    height: 100%;
+  }
+
+  /* ========================= PROJECTS SECTION ================================== */
+  #projects {
+    padding-block: 10.7rem;
+    margin-inline: 10.7rem;
+  }
+
+  /* ========================= SERVICES SECTION ================================== */
+
+  #services {
+    background: url('./assets/bg-services-desktop.png');
+    background-size: cover;
+  }
+
+  #services .services-container {
+    width: 45%;
+    margin-inline: 25rem;
+
+    align-items: flex-start;
+  }
+
+  #services h1 {
+    font-size: 4rem;
+  }
+
+  #services p {
+    font-size: 2.5rem;
+    line-height: 1.8;
   }
 }
 
