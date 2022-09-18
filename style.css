@@ -62,8 +62,8 @@ nav .wrapper {
   padding: 1.7rem 10rem;
 
   background: rgba(9, 8, 7, 0.25);
-  backdrop-filter: blur(1rem);
-  -webkit-backdrop-filter: blur(1rem);
+  /* backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem); */
 }
 .menu ul {
   list-style: none;
