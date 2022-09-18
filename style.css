@@ -402,6 +402,10 @@ nav .wrapper {
     margin-inline: 10.7rem;
   }
 
+  #projects .cards {
+    gap: 1rem;
+  }
+
   #projects .cards .card a img {
     padding: 0;
     border-radius: 1rem;
@@ -409,10 +413,12 @@ nav .wrapper {
     opacity: 0.5;
 
     transition: all 200ms;
+
+    transform: scale(0.9);
   }
 
   #projects .cards .card a img:hover {
-    transform: scale(1.1);
+    transform: scale(1);
 
     opacity: 1;
 
