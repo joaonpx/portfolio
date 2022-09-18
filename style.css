@@ -281,6 +281,15 @@ nav .wrapper {
   gap: 3.2rem;
 }
 
+.branding-footer .social-icons ul li a {
+  opacity: 0.7;
+  transition: all 200ms;
+}
+
+.branding-footer .social-icons ul li a:hover {
+  opacity: 1;
+}
+
 /* ========================= RESPONSIVE ================================== */
 @media (min-width: 1024px) {
   body {
