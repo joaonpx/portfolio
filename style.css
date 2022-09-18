@@ -50,20 +50,26 @@ body {
 }
 
 /* ========================= NAVIGATION ================================== */
-nav .wrapper {
+
+nav {
   width: 100%;
 
   position: fixed;
+  top: 0;
+  z-index: 100;
 
+  background: rgba(9, 8, 7, 0.25);
+
+  backdrop-filter: blur(0.5rem);
+  -webkit-backdrop-filter: blur(0.5rem);
+}
+
+nav .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   padding: 1.7rem 10rem;
-
-  background: rgba(9, 8, 7, 0.25);
-  /* backdrop-filter: blur(1rem);
-  -webkit-backdrop-filter: blur(1rem); */
 }
 
 .menu ul {
@@ -347,6 +353,8 @@ nav .wrapper {
     flex-direction: column;
 
     height: 80vh;
+
+    margin-top: 6.9rem;
   }
 
   #home header span {
@@ -375,10 +383,10 @@ nav .wrapper {
 
   #home .arrow {
     width: auto;
-    margin-inline: 47.8%;
+    margin-inline: 48.7%;
 
     position: absolute;
-    top: 90.9%;
+    top: 91%;
 
     padding: 0;
   }
