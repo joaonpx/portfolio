@@ -208,8 +208,6 @@ nav .wrapper {
 }
 
 #projects .cards .card a img {
-  border-radius: 1rem;
-
   background: var(--main-gradient);
   padding: 0.2rem;
   border-radius: 1rem;
@@ -402,6 +400,23 @@ nav .wrapper {
   #projects {
     padding-block: 10.7rem;
     margin-inline: 10.7rem;
+  }
+
+  #projects .cards .card a img {
+    padding: 0;
+    border-radius: 1rem;
+
+    opacity: 0.5;
+
+    transition: all 200ms;
+  }
+
+  #projects .cards .card a img:hover {
+    transform: scale(1.1);
+
+    opacity: 1;
+
+    padding: 0.2rem;
   }
 
   /* ========================= SERVICES SECTION ================================== */
