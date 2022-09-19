@@ -87,12 +87,14 @@ nav .wrapper {
 
 /* ========================= HOME SECTION ================================== */
 #home {
-  margin-inline: 3.5rem;
-  margin-top: calc(6.5rem + 3.5rem);
+  padding-top: 7rem;
 }
 
 #home header {
   text-align: center;
+
+  margin-inline: 3.5rem;
+  margin-top: calc(6.5rem + 3.5rem);
 }
 
 #home header span {
