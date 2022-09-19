@@ -345,8 +345,6 @@ nav .wrapper {
 
   /* ========================= HOME SECTION ================================== */
   #home {
-    margin: 0;
-
     padding-top: 7rem;
   }
 
@@ -357,6 +355,8 @@ nav .wrapper {
     flex-direction: column;
 
     height: 80vh;
+
+    margin: 0;
   }
 
   #home header span {
