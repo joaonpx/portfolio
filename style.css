@@ -429,6 +429,7 @@ nav .wrapper {
 
   /* ========================= PROJECTS SECTION ================================== */
   #projects {
+    height: 100%;
     padding-block: 10.7rem;
     margin-inline: 10.7rem;
   }
