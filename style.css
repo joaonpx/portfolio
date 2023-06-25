@@ -495,7 +495,7 @@ nav .wrapper {
 .slide-in-blurred-top {
   -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1)
     both;
-  animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
+  animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 @keyframes bounce {
@@ -568,8 +568,8 @@ nav .wrapper {
 }
 
 .fade-in {
-  -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 /* ----------------------------------------------
