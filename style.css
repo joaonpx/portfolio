@@ -25,9 +25,9 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 
-  background: url('./assets/bg-pattern-npx.svg'), #090807;
+  background: url("./assets/bg-pattern-npx.svg"), #090807;
   background-repeat: no-repeat;
   background-position: center top;
   color: #e0dcda;
@@ -62,10 +62,10 @@ nav {
   top: 0;
   z-index: 100;
 
-  /* background: rgba(9, 8, 7, 0.25); */
+  background: var(--bg);
 
-  backdrop-filter: blur(0.5rem);
-  -webkit-backdrop-filter: blur(0.5rem);
+  /* backdrop-filter: blur(0.5rem);
+  -webkit-backdrop-filter: blur(0.5rem); */
 }
 
 nav .wrapper {
@@ -132,7 +132,7 @@ nav .wrapper {
 }
 
 #home footer .btn-contact {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   font-size: 1.8rem;
   font-weight: 700;
 
@@ -239,7 +239,7 @@ nav .wrapper {
 #services {
   height: 100%;
 
-  background: url('./assets/bg-services-mobile.png');
+  background: url("./assets/bg-services-mobile.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -265,7 +265,7 @@ nav .wrapper {
 
 #services p {
   font-size: 2rem;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   line-height: 3.2rem;
 }
 
@@ -327,7 +327,7 @@ nav .wrapper {
   }
 
   .menu ul li a {
-    font-family: 'Inconsolata', monospace;
+    font-family: "Inconsolata", monospace;
     font-size: 1.6rem;
     font-weight: 400;
 
@@ -439,6 +439,8 @@ nav .wrapper {
   }
 
   #projects .cards .card a img {
+    background: none;
+
     padding: 0;
     border-radius: 1rem;
 
@@ -450,6 +452,8 @@ nav .wrapper {
   }
 
   #projects .cards .card a img:hover {
+    background: var(--main-gradient);
+
     transform: scale(1);
 
     opacity: 1;
@@ -460,7 +464,7 @@ nav .wrapper {
   /* ========================= SERVICES SECTION ================================== */
 
   #services {
-    background: url('./assets/bg-services-desktop.png');
+    background: url("./assets/bg-services-desktop.png");
     background-size: cover;
   }
 
